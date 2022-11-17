@@ -1,0 +1,10 @@
+6.Write a program to print 10-1.
+
+public class Print_Reverse{
+  public static void main(String[] args){
+    int i;
+    for(i=10;i>0;i--){
+      System.out.println(i);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+write a program to read employee salary and 3 shopping bills and find
+1.total shopping amount
+2.How much percentage of amount employee spent on his salary
+
+public class Employe{
+  public static void main(String[] args){
+    int salary=200000;
+    int s1=45000,s2=35000,s3=50000,percentage;
+    int total;
+    total=s1+s2+s3;
+    percentage=total*100/salary;
+    System.out.println("total shopping amount is" + total);
+     System.out.println("percentage shopping amount is" + percentage);
+    
+    
+  }
+}

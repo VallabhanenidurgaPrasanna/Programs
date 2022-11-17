@@ -1,0 +1,16 @@
+write a program to print addition,subtraction,multiplication,division.
+public class Addition {
+
+  public static void main(String[] args) {
+    int n1 = 10, n2 = 20, sum, sub, div, mul;
+    sum = n1 + n2;
+    sub = n1 - n2;
+    mul = n1 * n2;
+    div = n1 / n2;
+    System.out.println("sum of number is" + sum);
+    System.out.println("sub of number is" + sub);
+    System.out.println("mul of number is" + mul);
+    System.out.println("div of number is" + div);
+
+  }
+}

@@ -1,0 +1,14 @@
+1. Input the age of the voter and check whether he is eligible to vote based
+ on the age older than 18 years. 
+public class Voterid{
+  public static void main(String[] args){
+    int age=10;
+    if(age >= 18){
+      System.out.println("Eligible for vote");
+    }
+      else{
+      System.out.println("Not Eligible for vote");
+      }
+    }
+  }
+

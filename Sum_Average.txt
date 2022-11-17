@@ -1,0 +1,11 @@
+3. Find the sum and average of three numbers.
+
+public class Sum_Average{
+  public static void main(String[] args){
+    int sum,average,a=10,b=20,c=30;
+    sum=a+b+c;
+    average=sum/3;
+    System.out.println("the sum is" +sum);
+    System.out.println("the average is" +average);
+  }
+}

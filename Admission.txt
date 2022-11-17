@@ -1,0 +1,13 @@
+2. Check your Admission possibility to your dream College based on your academic marks. 
+
+public class Admission{
+  public static void main(String[] args){
+    int marks=64;
+    if(marks>=65){
+      System.out.println("admission available");
+    }
+    else{
+      System.out.println("admission not available");
+    }
+  }
+}

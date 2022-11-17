@@ -1,0 +1,10 @@
+write a program to hra,da on basic
+
+public class Hra {
+  public static void main(String[] args) {
+    int basic=50000,gs,hra=basic*67/100, da =basic*89/100;
+    gs = hra + da + basic;
+    System.out.println("The gs amount is" + gs);
+
+  }
+}

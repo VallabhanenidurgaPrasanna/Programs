@@ -1,0 +1,26 @@
+write a program to print gross salary
+
+public class Gs{
+  public static void main(String[] args){
+    int basic=30000;
+    float hra,da,gs;
+    if(basic<=10000){
+      hra=80*basic/100;
+      da=76*basic/100;
+    }
+     
+      else if(basic<=20000){
+      hra=83*basic/100;
+      da=78*basic/100;
+      }
+      else {
+        hra=89*basic/100;
+        da=86*basic/100;
+      }
+        gs=hra+da+basic;
+    System.out.println("the gs is" + gs);
+        
+      }
+      }
+    
+  

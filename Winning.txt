@@ -1,0 +1,15 @@
+write a program to Predict Winning Chances of team on the basis Live Cricket Score.
+
+public class Winning{
+  public static void main(String[] args){
+    int a=20;
+    int b=30;
+    if(a>b)
+    {
+      System.out.println(" a will have more chances to win");
+    }
+    else{
+      System.out.println(" b will have more chances to win");
+    }
+  }
+}
