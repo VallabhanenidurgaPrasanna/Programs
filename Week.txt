@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Week{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter i value");
+    int i;
+    String day;
+    i=sc.nextInt();
+    
+    if(i==1){
+      System.out.println("Sunday" +-i );
+    }
+    else if(i==2){
+      System.out.println("Monday" +-i );
+    }
+    else if(i==3){
+      System.out.println("Tuesday" +-i );
+    }
+    else if(i==4){
+      System.out.println("Wednesday" +-i );
+    }
+    else if(i==5){
+      System.out.println("Thursday" +-i );
+    }
+    else if(i==6){
+      System.out.println("Friday" +-i );
+    }
+    else if(i==7){
+      System.out.println("Saturday" +-i );
+    }
+    else{
+      System.out.println("Invalid number");
+    }
+  }
+  
+}
