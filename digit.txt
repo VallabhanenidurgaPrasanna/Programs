@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Digit {
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter Character");
+    //int digit=sc.nextInt();
+    char ch=sc.next().charAt(0);
+    if(ch>='0' && ch<='9'){
+      System.out.println("Digit");
+    }
+      else if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
+      System.out.println("Alphabet:");
+      }
+      else{
+        System.out.println("special character:");
+      }
+  }
+}
