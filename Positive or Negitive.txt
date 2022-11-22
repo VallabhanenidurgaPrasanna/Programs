@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Positive {
+
+  public static void main(String args[]) {
+
+    Scanner s = new Scanner(System.in);
+    System.out.println("Enter number to check it is positive or negitive or zero");
+    int num = s.nextInt(); // 0
+    if (num == 0) {
+      System.out.println("zero");
+    } else if (num >= 0) {
+      System.out.println("positive number");
+    } else {
+      System.out.println("negitive number");
+    }
+
+  }
+}
