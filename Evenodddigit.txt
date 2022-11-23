@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Evenodd{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter number");
+    int num=sc.nextInt();
+    int r=0,evensum=0,oddsum=0;
+    while(num!=0){
+      r=num%10;
+      if(r%2==0){
+        evensum=evensum+r;
+       
+      }
+      else{
+        oddsum=oddsum+r;
+      }
+      num=num/10;
+    }
+     System.out.println("the sum of even numbers is " +evensum);
+     System.out.println("the sum of odd numbers is " +oddsum);
+
+  }
+}
