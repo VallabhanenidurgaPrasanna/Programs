@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	
+	<context:annotation-config />
+	
+	<bean class="com.Bitlabs.entity.Springautowire.Address" name="address">
+	
+	<property name="city" value="Vijayawada"/>
+	<property name="street" value="prasadampadu"/>
+</bean>
+
+<bean class="com.Bitlabs.entity.Springautowire.Employee" name="employee" autowire="constructor" >
+
+</bean>
+
+<bean class="com.Bitlabs.entity.qualifier.Address1" name="address1">
+<property name="city" value="Hyderabad"/>
+<property name="street" value="gandhi nagar"/> 
+</bean>
+<bean class="com.Bitlabs.entity.qualifier.Address1" name="address2">
+<property name="city" value="Hyderabad"/>
+<property name="street" value="gandhi nagar"/> 
+</bean>
+<bean class="com.Bitlabs.entity.qualifier.Employee1" name="employee1">
+</bean>
+</beans>
